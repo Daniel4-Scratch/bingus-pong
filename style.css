@@ -1,0 +1,23 @@
+body{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: black;
+    color: #fff;
+}
+#canvas{
+    position: relative;
+    background-color: #0b0b0b;
+    border: 1px solid white;
+    background-image: url("./assets/grass.jpeg");
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
